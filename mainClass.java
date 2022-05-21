@@ -89,8 +89,7 @@ public class mainClass {
             roundsPerformed++;
             printIDs();
         }
-
-       System.out.println("Im done");
+        classInstance.threadMethod(index); // in order to start a new round
     }
 
     static void printIDs() {
